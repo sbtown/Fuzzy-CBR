@@ -33,6 +33,7 @@ The data set provided by Dr. WIlliam H. Wolberg and the University of Wisconsin 
 ![alt text](ImagesAndDiagrams/likelihood.PNG "Likelihood Results")
 ##### *The average likelihood of giving a correct diagnosis.* 
 ***
+![alt text](ImagesAndDiagrams/likelihoodTable.PNG "Table Liklihood")
 ##### Table of Lilelihood Results 
 ***
 ### Clustering
