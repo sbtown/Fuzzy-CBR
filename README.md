@@ -32,13 +32,17 @@ The data set provided by Dr. WIlliam H. Wolberg and the University of Wisconsin 
 
 ##### Table of Accuracy Results
 
+![alt text](ImagesAndDiagrams/likelihood.PNG "Likelihood Results")
+
 ##### The average likelihood of giving a correct diagnosis. 
+
 
 ##### Table of Lilelihood Results 
 
 ### Clustering
 
 ##### The average accuracy using 3-NN and 5-NN
+![alt text](ImagesAndDiagrams/clusterAccuracy.PNG "Cluster Accuracy")
 
 ##### Table of Clustering Retrieval Accuracy
-
+![alt text](ImagesAndDiagrams/tableCluster.PNG "Table Cluster")
