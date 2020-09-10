@@ -24,4 +24,18 @@ The data set provided by Dr. WIlliam H. Wolberg and the University of Wisconsin 
 
 
 ## Results
-![](ImagesAndDiagrams/accuracy.PNG)
+![alt text](ImagesAndDiagrams/accuracy.PNG "Accuracy")
+..1 ##### The average accuracy between CBR and Fuzzy-CBR using 3 weighting methods. 
+
+..1 ##### Table of Accuracy Results
+
+..1 ##### The average likelihood of giving a correct diagnosis. 
+
+..1 ##### Table of Lilelihood Results 
+
+### Clustering
+
+..1 ##### The average accuracy using 3-NN and 5-NN
+
+..1 ##### Table of Clustering Retrieval Accuracy
+
