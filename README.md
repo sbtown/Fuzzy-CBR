@@ -23,7 +23,11 @@ The data set provided by Dr. WIlliam H. Wolberg and the University of Wisconsin 
 11. Class: (2 for benign, 4 for malignant)
 
 
-## Results
+## Testing and Results
+### Testing
+Testing was done using a 30/70 split. The test files have been added to the repository and available [here](https://github.com/sbtown/Fuzzy-CBR/tree/master/Fuzzy-CBR/Testing)
+
+### Results
 ![alt text](ImagesAndDiagrams/accuracy.PNG "Accuracy")
 ##### *The average accuracy between CBR and Fuzzy-CBR using 3 weighting methods.* 
 ***
