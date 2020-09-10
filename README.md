@@ -44,8 +44,9 @@ The results show a slightly higher accuracy in Fuzzy-CBR when taking 3 and 5 Nea
 ***
 ### Clustering
 
-##### *The average accuracy using 3-NN and 5-NN*
 ![alt text](ImagesAndDiagrams/clusterAccuracy.PNG "Cluster Accuracy")
+##### *The average accuracy using 3-NN and 5-NN*
 ***
-##### *Table of Clustering Retrieval Accuracy*
 ![alt text](ImagesAndDiagrams/tableCluster.PNG "Table Cluster")
+##### *Table of Clustering Retrieval Accuracy*
+
