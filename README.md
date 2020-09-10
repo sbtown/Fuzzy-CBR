@@ -35,7 +35,7 @@ The data set provided by Dr. WIlliam H. Wolberg and the University of Wisconsin 
 
 ### Clustering
 
-..1 ##### The average accuracy using 3-NN and 5-NN
+##### ..1 The average accuracy using 3-NN and 5-NN
 
 ..1 ##### Table of Clustering Retrieval Accuracy
 
