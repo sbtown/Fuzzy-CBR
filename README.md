@@ -24,3 +24,4 @@ The data set provided by Dr. WIlliam H. Wolberg and the University of Wisconsin 
 
 
 ## Results
+![](ImagesAndDiagrams/accuracy.PNG)
