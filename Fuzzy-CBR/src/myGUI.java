@@ -287,25 +287,17 @@ fuzzyButton.addActionListener(new ActionListener() {
 							
 				//Checks if inputs are valid
 										
-				if(ic.checkEntry(cT) == true) {
-					if(ic.checkEntry(uSize) == true) {
-						if(ic.checkEntry(uShape)== true) {
-							if(ic.checkEntry(mA) == true) {
-								if(ic.checkEntry(sSize) == true) {
-									if(ic.checkEntry(bN) == true) {
-										if(ic.checkEntry(bC) == true) {
-											if(ic.checkEntry(nN) == true) {
+				if((ic.checkEntry(cT) == true) && (ic.checkEntry(uSize) == true)) {
+						if((ic.checkEntry(uShape)== true) && (ic.checkEntry(mA) == true)) {
+							if((ic.checkEntry(sSize) == true) && (ic.checkEntry(bN) == true)){
+										if((ic.checkEntry(bC) == true) && (ic.checkEntry(nN) == true)) {
 												if(ic.checkEntry(m) == true) {
-									
+						
 					FuzzyCaseChecker fcc = new FuzzyCaseChecker();
 					fcc.userFuzzyInput(user, cT, uSize, uShape, mA, sSize, bN, bC, nN, m);
-									}
-								}
-							}
-						}
 					}
 				}
-			}	
+			}
 		}
 	}
 		else {
@@ -319,79 +311,6 @@ fuzzyButton.addActionListener(new ActionListener() {
 		
 		Buttonpanel.add(fuzzyButton);
 	
-	/*
-		THIS WAS USED FOR TESTING
-		
-		JButton testButton = new JButton("Test");
-		testButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				//check the person
-				User current = new User();
-				
-				try {
-					File file = new File("/Users/samtown/Desktop/Fuzzy-CBR/TestingDataWCBreastCancer.xlsx");  
-					FileInputStream fis = new FileInputStream(file);   //obtaining bytes from the file  
-					//creating Workbook instance that refers to .xlsx file  
-					XSSFWorkbook wb = new XSSFWorkbook(fis);   
-					XSSFSheet sheet = wb.getSheetAt(0);     //creating a Sheet object to retrieve ob
-					DataFormatter df = new DataFormatter();
-					InputCheck ic = new InputCheck();
-					
-					for(int i = 1; i < sheet.getLastRowNum(); i++){
-						
-						String User = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(0)));
-						
-						String cT1 = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(1)));
-						String cT = ic.fuzzyUp(cT1);
-						
-						String uSize1 = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(2)));
-						String uSize = ic.fuzzyUp(uSize1);
-
-						String uShape1 = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(3)));
-						String uShape = ic.fuzzyUp(uShape1);
-						
-						String mA1 = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(4)));
-				     	String mA = ic.fuzzyUp(mA1);
-						
-						String sSize1 = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(5)));
-						String sSize = ic.fuzzyUp(sSize1);
-						
-						String bN1 = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(6)));
-						String bN = ic.fuzzyUp(bN1);
-						
-						String bC1 = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(7)));
-						String bC = ic.fuzzyUp(bC1);
-						
-						String nN1 = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(8)));
-						String nN = ic.fuzzyUp(nN1);
-						
-						String m1 = String.valueOf(df.formatCellValue(sheet.getRow(i).getCell(9)));
-					   String m = ic.fuzzyUp(m1);
-						
-					
-						FuzzyCaseChecker fcc = new FuzzyCaseChecker();
-						fcc.userFuzzyInput(User, cT, uSize, uShape, mA, sSize, bN, bC, nN, m);
-
-					CaseCheck cs = new CaseCheck();
-						
-					cs.loadSpecific(userID.getText(), cT, uSize, uShape, mA, sSize, bN, bC, nN, m);
-
-					}
-					}
-					catch(Exception ei)  
-					{  
-					ei.printStackTrace();  
-					}  
-
-				  Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-			}
-		});
-		Buttonpanel.setLayout(new GridLayout(5, 1, 0, 0));
-		Buttonpanel.add(testButton);
-			
-	
-
-	*/
 	
 	//creating check button
 	JButton checkButton = new JButton("CBR Check Solutions");
